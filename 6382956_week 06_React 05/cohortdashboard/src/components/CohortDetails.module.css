@@ -1,0 +1,30 @@
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #90b0df;
+  transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+dt {
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+dd {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+.dashboardBackground {
+  background-color: #f780c5;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+

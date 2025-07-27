@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #edf2fb, #d7e3fc);
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  background-color: #1976d2;
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  padding: 30px;
+}
+
+h1, h2 {
+  color: #2e3c6a;
+}
+
+ul.trainer-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.trainer-list li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 12px;
+  border-left: 4px solid #1976d2;
+  border-radius: 6px;
+}
+
+ul.trainer-list li a {
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: 500;
+}
+
+ul.trainer-list li a:hover {
+  color: #004ba0;
+}
+
+.trainer-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
