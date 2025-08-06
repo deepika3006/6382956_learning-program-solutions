@@ -1,0 +1,22 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.login-form input {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #0078d7;
+  outline: none;
+}

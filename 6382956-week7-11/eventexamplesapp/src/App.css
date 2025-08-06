@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Main Container */
+.app {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Card Design */
+.card {
+  background: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 500px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+/* Button Styles */
+button {
+  padding: 12px 24px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #0078D7;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005EA6;
+  transform: translateY(-2px);
+}
+
+/* Input Styles */
+input {
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #0078D7;
+  outline: none;
+}
+
+/* Heading Styling */
+h1 {
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-top: 10px;
+}
